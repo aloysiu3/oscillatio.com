@@ -1,0 +1,19 @@
+#disclaimer-wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    max-width:940px;
+    border-radius: 5px;
+    padding:15px;
+    margin-bottom: 30px;
+    text-align: justify;
+    curzor:default;
+    -webkit-backdrop-filter: saturate(180%) blur(15px);
+    backdrop-filter: saturate(180%) blur(15px);
+}
+
+#disclaimer-wrapper b {
+    font-size: 25px;
+}
+
+#disclaimer-wrapper span {
+    font-size:20px;
+}

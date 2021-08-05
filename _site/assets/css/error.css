@@ -1,0 +1,63 @@
+/*404*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400');
+/* https://fonts.google.com/specimen/Roboto+Slab?selection.family=Roboto+Slab:300,400 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/bg_i.jpg);
+    background-position: top;
+    background-repeat: repeat;
+    -webkit-background-size: 500px;
+    -moz-background-size: 500px;
+    -o-background-size: 500px;
+    background-size: 500px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#not_found {    
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.05s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: test;
+    animation-duration: 0.05s;
+    animation-iteration-count: infinite;
+    cursor: default;
+}
+
+@-webkit-keyframes test {
+    0% {color: white;}
+    25% {color: red; padding-left: 10px;}
+    50% {color: blue; padding-left: 0px;}
+    75% {color: green; padding-left: 10px;}
+    100% {color: white;}
+			}
+
+@keyframes test {
+    0% {color: white;}
+    25% {color: red; padding-left: 10px;}
+    50% {color: blue; padding-left: 0px;}
+    75% {color: green; padding-left: 10px;}
+    100% {color: white;}
+}
+
+#home_link_div {
+    margin-top:15px;
+    text-align: center;
+}
+
+#home_link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#home_link:hover {
+    color: grey;
+    -webkit-transition: all .1s ease-in-out;
+}

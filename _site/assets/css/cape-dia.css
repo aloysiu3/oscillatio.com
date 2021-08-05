@@ -1,0 +1,21 @@
+body, #dia-wrapper, #slider, .slide {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+}
+
+#dia-wrapper {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#slide1 {
+  background-image: url(/assets/photo/cape/ps/bg.png);
+}

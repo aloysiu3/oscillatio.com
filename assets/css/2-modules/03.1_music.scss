@@ -1,0 +1,69 @@
+.stream-container {
+  max-width:960px;
+}
+
+.track-stream {
+  margin-bottom: 15px;
+  border:0px;
+  overflow: hidden;
+}
+
+
+
+.mini-sc-stream {
+  margin-bottom: 15px;
+  border:0px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width:600px) {
+  .mini-sc-stream {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .track-stream {
+    display: none;
+  }
+  .mini-sc-stream {
+    display: block;
+  }
+}
+
+
+
+.channel {
+  text-align: center;
+}
+
+.channel-logo {
+  width: 200px;
+  margin: auto;
+  margin-top:60px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+.channel-stream {
+  display:block;
+  margin:0 auto;
+  max-width: 600px;
+  height:500px;
+  border:0px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width:600px) {
+    .channel-stream {
+        height: 350px;
+    }
+}
+
+
+
+//iframe edits
+.mobilePrestitial {
+  display: none !important;
+}

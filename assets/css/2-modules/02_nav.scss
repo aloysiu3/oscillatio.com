@@ -1,0 +1,48 @@
+nav {
+  max-width: 960px;
+  height:30px;
+  margin:0 auto;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  text-align: right;
+  z-index: 1000;
+}
+
+.nav-link {
+  font-size: 23px;
+  color:white;
+  margin-right:10px;
+  transition: all .2s ease-in-out;
+  z-index: 1000;
+}
+
+@media only screen and (max-width:768px) {
+  nav {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  nav {
+    position: fixed;
+    top:60px;
+    height: auto;
+    width:100%;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: saturate(180%) blur(15px);
+    backdrop-filter: saturate(180%) blur(15px);
+  }
+
+  .nav-link {
+    display: none;
+  }
+}
+
+.nav-link-res {
+  display: block;
+  font-size: 20px;
+  margin-right: 0;
+  margin-right: 0;
+  margin-bottom:5px;
+  z-index: 1000;
+}

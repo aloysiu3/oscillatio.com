@@ -1,0 +1,102 @@
+//structure
+
+html, body {
+  height: 100%;
+  min-width:320px;
+}
+
+@media only screen and (max-width:600px) {
+  html, body {
+    height: calc(100% - 30px);
+  }
+}
+
+#complete-site-wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+#top {
+  padding-bottom:200px;
+}
+
+main {
+  padding: 10px 0px 50px 0px;
+}
+
+@media only screen and (max-width:600px) {
+  main {
+    margin-top:60px;
+  }
+    .main-inner {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.main-inner {
+  max-width: 960px;
+  margin:0 auto;
+  padding: 0px 10px 0px 10px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+/*#o-logo {
+    position: absolute;
+    top:140px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}*/
+
+//styling
+
+* {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: black;
+  background-image: url(/assets/img/bg.jpg);
+  background-position: top;
+  background-repeat: repeat;
+  background-size: 500px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:gray;
+}
+
+
+a h1 {
+  margin:0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color:white;
+  transition: all .2s ease-in-out;
+}
+
+a h1:hover {
+  color: grey;
+}
+
+h2 {
+  margin:0;
+  font-size: 20px;
+  color:white;
+  margin-bottom: 20px;
+  cursor:default;
+}
+
+//SoundCloud iFrame Mobile Banner Remover
+.mobilePrestitial {
+    display: none;
+}

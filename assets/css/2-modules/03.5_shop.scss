@@ -1,0 +1,40 @@
+#shop-wrapper {
+  border-radius: 5px;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+    //height:auto;
+    //min-height: 1570px;
+}
+
+#header-html {
+  display: none;
+}
+
+//iframe edits
+
+#sprd-header-container {
+    height:auto !important;
+    max-width: 1200px;
+    position: initial;
+}
+
+.sprd-listpage {
+    padding-top: 0px !important;
+}
+
+.sprd-back-to-top__container {
+    display: none;
+}
+
+.sprd-footer {
+    //display: none;
+}
+
+.sprd-mobilefilter {
+    //display: none;
+}
+
+.sprd-info-footer {
+    padding-bottom: 10px !important;
+}

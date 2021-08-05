@@ -1,0 +1,29 @@
+form {
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    max-width:600px;
+    //background: pink;
+    color: white;
+    font-size: 25px;
+}
+
+#contact-info {
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-info-label {
+    width:50%;
+    float:left;
+}
+
+.contact-span {
+    margin-bottom:5px;
+    margin-left:5px;
+}
+
+.input-contact-info {
+    width: 95%;
+}
